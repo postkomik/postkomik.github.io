@@ -127,7 +127,10 @@ footer {
     display:none;
 }
 
-
+.artikel link{
+    
+    text-align: center;
+}
 
 .outer-wrapper {
     width: 100%;
