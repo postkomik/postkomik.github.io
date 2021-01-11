@@ -1,0 +1,2 @@
+# <a href="https://postkomik.blogspot.com/2020/12/a-legend-of-wind.html">A Legend of the Wind</a>
+Perjalanan seorang pria  muda yang biasa berdarah naik dari biasa ke luar biasa, dan dari palung  ke puncak. Pada generasi ke-16 dari keluarga Shangguan Shangguan Xu, dia  selalu berubah dan terlihat seperti hantu. Dia datang dan pergi tanpa  jejak. Dia menemukan metode yang benar dalam mempraktikkan seni bela  diri keluarga, dan mengubah hidupnya.
