@@ -446,3 +446,18 @@ footer {
 #footer-navmenu ul li:after {
     content: "/";
 }
+
+element.style {
+    height: 80px;
+}
+
+.ads-here {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border: 1px solid #ebeced;
+    border-radius: 3px;
+    color: lightblue;
+    font-size: 12px;
+}
