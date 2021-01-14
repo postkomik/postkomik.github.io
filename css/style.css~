@@ -299,6 +299,11 @@ ol li{border-bottom: #ddd 1px dotted;margin-right:5px;padding:3px}
 p1{
 text-align:center;
 }
+footer {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #555;
+}
 #footer-navmenu {
     background: #061b1f;
     background-image: initial;
@@ -440,4 +445,19 @@ text-align:center;
 
 #footer-navmenu ul li:after {
     content: "/";
+}
+
+element.style {
+    height: 80px;
+}
+
+.ads-here {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border: 1px solid #ebeced;
+    border-radius: 3px;
+    color: lightblue;
+    font-size: 12px;
 }
