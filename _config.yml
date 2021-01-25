@@ -7,7 +7,7 @@ favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'postkomik-github-1'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=7ea9767765c64bad4a7615b18&amp;id=153f964868'
+mailchimp-list: 'https://us7.campaign-archive.com//subscribe/post?u=7ea9767765c64bad4a7615b18&id=32b78086cf&e=[UNIQID]'
 include: ["_pages"]
 permalink: /:title/
 email: Ahmadalwy@gmail.com
