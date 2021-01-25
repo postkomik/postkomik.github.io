@@ -3,6 +3,7 @@ layout: post
 title:  "10 Aturan Emas Untuk Kencan Online yang Sukses."
 author: mas cemplon
 categories: [ Pendidikan ]
+tags: [ edukasi ]
 image: assets/images/3.jpg
 beforetoc: "Seperti yang diketahui semua orang, metode favorit kawin dan kencan untuk lajang di seluruh dunia adalah bergabung dengan situs kencan online."
 toc: true

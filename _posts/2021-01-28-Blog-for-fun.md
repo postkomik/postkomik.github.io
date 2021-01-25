@@ -3,6 +3,7 @@ layout: post
 title:  "Blog For Fun"
 author: mas cemplon
 categories: [ Pendidikan ]
+tags: [ edukasi ]
 image: assets/images/3.jpg
 beforetoc: "Blogging is becoming an increasingly popular way for entrepreneurs to earn a living online while doing something they really enjoy. In many cases."
 toc: true
