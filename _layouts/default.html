@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="google-site-verification" content="waUDSjqvCpWUCH0SFKXV_9tMVR9bPjg1xtftoeL8Xzs-W5hMwc-79is">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -18,7 +18,51 @@
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7ea9767765c64bad4a7615b18/411454af902e256f60246c800.js");</script>
+<title>{{ title }}</title>
+   <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+  
+     <!-- Meta robot untuk index -->
+ 
+<meta name="googlebot" content="index, follow" >
+<!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta property="twitter:image:src" content="{{ image }}">
+    {% if site.twitter_username %}
+        <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    {% endif %}
 
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="{{ url }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    
+     <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
+    
+    <!-- Apple Touch Icons -->
+
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}../assets/images/icons/faticon/apple-icon.png" />
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/icons/faticon/apple-icon-57x57.png" />
+
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/icons/faticon/apple-icon-72x72.png" />
+
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/icons/apple-touch-icon-114x114.png" />
+   
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/icons/faticon/apple-icon-114x114.png" />
+  
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/icons/faticon/apple-icon-60x60.png" />
+   
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/icons/faticon/apple-icon-120x120.png" />
+    
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/images/icons/faticon/apple-icon-76x76.png" />
+    
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/images/icons/faticon/apple-icon-152x152.png" />
+ 
 </head>
 
 {% if jekyll.environment == 'production' %}

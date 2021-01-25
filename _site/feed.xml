@@ -3,10 +3,10 @@
   <channel>
     <title>Mas Cemplon</title>
     <description>Berbagi Informasi Onlien Yang Mendidik</description>
-    <link>/post//</link>
-    <atom:link href="/post//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jan 2021 12:24:27 +0700</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 12:24:27 +0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 Jan 2021 19:55:24 +0700</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 19:55:24 +0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -50,8 +50,8 @@
 
 </description>
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0700</pubDate>
-        <link>/post//Aturan-emas/</link>
-        <guid isPermaLink="true">/post//Aturan-emas/</guid>
+        <link>/Aturan-emas/</link>
+        <guid isPermaLink="true">/Aturan-emas/</guid>
         
         
         <category>Pendidikan</category>
