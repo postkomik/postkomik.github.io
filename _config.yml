@@ -4,7 +4,7 @@ title: "Mas Cemplon"
 description: "Berbagi Informasi Onlien Yang Mendidik"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: "index.html"
+baseurl: ""
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'postkomik-github-1'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=7ea9767765c64bad4a7615b18&amp;id=153f964868'
