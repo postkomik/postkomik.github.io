@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://postkomik.github.io/sitemap.xml
