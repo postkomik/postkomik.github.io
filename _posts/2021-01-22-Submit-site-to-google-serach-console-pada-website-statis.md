@@ -10,7 +10,7 @@ beforetoc: "Ini adalah cara Submit site to google serach console pada website st
 toc: true
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2fYkQc_E7vA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2fYkQc_E7vA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Ini adalah cara Submit site to google serach console pada website statis
 
