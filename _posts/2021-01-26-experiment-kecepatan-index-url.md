@@ -11,7 +11,7 @@ toc: true
 ---
 
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/z5mkPZnFpc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/z5mkPZnFpc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 dalam expertiment ini artikel di buat pada tanggal 26 januari 2021 dan perbandingannya yaotu antara dua blog yaitu :
