@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Why is everyone on about xml?"
+author: mas cemplon
+categories: [ Computers, Technology ]
+tags: [ Computers ]
+image: 
+beforetoc: "In the new world of IP, what looks like a telephone handset is in fact a computer. If it’s an Alcatel IP handset then it’s a dumb terminal driven by a presentation server and if it’s a Cisco IP handset, it’s more or less a PC. The only restriction is the size and type of the display.  In both cases the telephone interface is a web browser and as fashion accessory the IP telephone can sit where you the PC can’t.."
+toc: true
+---
+
+
+
+Computer Telephony Integration, Voice over Ip, IP Telephony, Offshore software Development, IP handset
+
+
+
+In the traditional world, a telephone handset was a telephone handset. In the new world of IP, what looks like a telephone handset is in fact a computer. If it’s an Alcatel IP handset then it’s a dumb terminal driven by a presentation server and if it’s a Cisco IP handset, it’s more or less a PC. The only restriction is the size and type of the display.  In both cases the telephone interface is a web browser and as fashion accessory the IP telephone can sit where you the PC can’t.  We know all of this because Ghost Software, with its offshore software development resource, deals with a variety of IP platforms both in terms of Computer Telephony Integration and Voice over IP. This makes the IP handset ideal for retail, like shops in a shopping mall, in reception areas and banking foyers as well as in a ward in a hospital or a school library. What drives applications on these handsets is XML. So what kind of applications makes the purchasing of an IP handset worthwhile? In the early days of XML, people were populating browsers with Yellow Pages, stocks and share prices, news and weather updates. Sure, they look great but they didn’t justify the price premium of the hardware. Our research shows that what’s required are some traditional telephony orientated applications or specialist vertical market applications, the latter having its own set of unique problems.
+
+	We have, we think, three and a half generic applications that are so compelling, that people will pay the hardware handset premium to have them.  The first is the ability to send SMS messages from a landline either to one, or broadcasted to many mobile handsets. Whilst this application will work with any XML handset, it is particularly suited to the Alcatel IP Touch range, with its built in Qwerty keyboard, This allows for easy integration of SMS into the general portfolio of business communication. Anyone with an external sales force will have an immediate need. Next is an application called “XPOP” It’s a basic screen pop application that always resided on a PC, so you can see who is calling by capturing the caller’s number and querying the database. Now we can extract the information and populate an XML phone browser. It’s fairly straightforward to build a driver that integrates into the most common contact management databases and in most cases the interface will give you the ability for one click dial out by name. Last but not least is an outbound dialler. Some people in the world want a predictive dial solution, but we think that’s too niche. A general purpose low-priced dialer that allows people to log in and log out, that reschedules busy calls that gives you one round of call completion codes (Sale made; brochure sent and not interested for example) is good enough for most general businesses. And what about the “half!?” – well, that’s ShortEmail. That’s the ability to send and receive emails on the IP handset. It’s so simple it’s hardly an application, but it is ideal for places where you can’t house a PC, like a hospital ward where you might want to send a quick email “Bring food quickly!”
+
+	Now, there are vertical market applications. The size, shape and composition of these is endless. Off the top of my head, here are three. (1) The books of a school library. –displayed on an IP handset. Students can see whether books are in or out and reserve them. (2) Lost case notes in a hospital. Patients go from ward to ward and often their case notes get left behind. An application which broadcasts to all departments with an option to reply if you have them is ideal, and (3) Hospitality software, where staff can enter a pin code when they have cleaned a room or you can order room service from your handset.  The problem is, however, that if you go to a business and say what do you want? - The answer is invariably “we don’t know!” The solution is to build demo applications which have a feature set but they are hard-coded (this means they’re quicker to develop) and once you show it, everyone knows what’s wrong with it. And….hey presto, you have a brief. This is the way we have worked over recent months with some very good results. For any further information about what is written here, you can contact us on enquiries@ghost-software.com or contact Ghost Software at any of its local offices.
+
+
+THOUSANDS QUALITY but FREE PLR ARTICLES @ www.BuildWebPage.org
+You can say thanks for the articles by giving us a link back at http://www.BuildWebPage.org on your links page.

@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "What is a Link Bid Directory?"
+author: mas cemplon
+categories: [ Computers, Technology ]
+tags: [ Computers ]
+image: 
+beforetoc: "This article describes what a Link Bid Directory is and how it is an effective way to promote your site on the internet.."
+toc: true
+---
+
+
+Link Bid, Link, Bid, Website, SEO, Webmaster, Search, Engine friendly, Link Directory, Directory
+
+
+
+What is a Link Bid Directory?
+
+A Link Bid Directory is an internet directory that list links for a website according to the amount the particular link position auctioned-off for. The directory lists links alphabetically in order of highest bid. Bids can be purchased for a link at any time, by anybody, and all bids are counted toward a link's total bid. The top 10 bidding links are displayed prominently on the home page, and if the administrator has chosen to enable the Link Leader, the highest bidding link will be displayed on every page.
+Most Link Bid Directories are Search engine friendly and optimised (SEO). Once listed, the links are displayed permanently. As time passes the webmaster of the site listed can increase their bid to keep their site link at the top of the listings - therefore at the top of every page.
+
+Are Link Bid Directories worth listing in?
+
+In my experience, yes they most certainly are. The exposure that your site would get is phenomenal; and your Page Rank would go up too. Because they are all SEO, your link will go up in rank with time. 
+
+I've heard rumours that they are fun?
+
+They are immense fun to participate in. I understand you may be wondering what I am talking about here - how on earth are website directories fun to list in?!?! It all comes down to whether you will go to any length to outbid that pesky person that has bid $1 more than you... would you go and outbid them by $1 afterwards! I always out-bid my opponents because I find that the publicity gained from getting listed at the top of every page in the directory is excellent!
+
+Is it expensive?
+
+No, of course not. Most good Link Bid Directories will list your site link for only $1. This guarantees that your site will get listed for only $1! another benefit of only paying $1 is that as the link directory markets itself, your link gets marketed as well!
+
+Where can I find a Link Bid Directory?
+
+An easy way to find a directory is to just search on a major search engine "Link Bid Directory $1".
+One that I have used before (see IconBuffet link!) is <a href="http://www.zewert.com">Zewert.com</a>. That directory is SEO and is marketed well.
+
+

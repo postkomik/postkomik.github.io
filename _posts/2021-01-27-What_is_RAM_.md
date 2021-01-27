@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "What is RAM?"
+author: mas cemplon
+categories: [ Computers, Technology ]
+tags: [ Computers ]
+image: 
+beforetoc: "RAM is a moniker for Random Access Memory. It acts as a short-term memory much like the human brain to store a wealth of information.."
+toc: true
+---
+
+
+RAM
+
+
+
+RAM is a moniker for Random Access Memory. It acts as a short-term memory much like the human brain to store a wealth of information. The RAM is accessible through the computer's brain called the CPU which stands for Central Processing Unit. RAM has the capability of being retrieved only while a computer is on. When the computer is turned off the RAM is no longer accessible. ROM chips along with BIOS (computer boot firmware) allows the RAM information to be retrievable when the computer is rebooted.
+
+RAM size and Location on the Computer System
+
+Most computers come equipped with 256 million bytes of RAM already on the computer. Additional RAM can be placed within the system. However, there is usually a limitation placed upon just how much RAM can be added to a computer system. RAM is not random as its name would lead one to believe. The RAM is highly controlled and the storage can be directly ascertained. There is a decisive method that RAM utilizes to make its memory available to certain areas of the computer system.
+
+Forms for RAM
+
+RAM is what is known as discrete microchips which means that it is separate. An additional form of RAM is modules which attach into outlets in the motherboard of the computer. A network of electrical pathways to the processor allows the connection to spark for the RAM.
+
+Why is RAM Important
+
+RAM serves the very important function of retrieving information that must be accessed in a quick manner. This operation is very similar to the human brain's function in retrieving necessary facts from short term memory. Open files and the utilization of applications on a computer systems requires the assistance of RAM. Users that play alot of video games with detailed graphics or keep alot of folders open while on their computer, will need the use of additional RAM. This will allow them to better access the information they need when the time comes. RAM is held onto a limited time, but it allows the information to come up quickly and without much fuss on the part of the computer user.
+
+

@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "What is HDMI?"
+author: mas cemplon
+categories: [ Computers, Technology ]
+tags: [ Computers ]
+image: 
+beforetoc: "HDMI, or high definition multimedia interface, is a type of audio and video interface that is used for the transmission of uncompressed digital streams.
+."
+toc: true
+---
+
+HDMI
+
+
+
+HDMI, or high definition multimedia interface, is a type of audio and video interface that is used for the transmission of uncompressed digital streams. Essentially, HDMI can be considered an alternative method to transmitting data streams, rather than making use of conventional methods such as coaxial cabling, VGA, or component video equipment. 
+
+What Type of Sources May Be Employed Using HDMI?
+
+Quite a number of devices and sources on the market today will work with the use of HDMI. The Blu-Ray disc player, a relatively new innovation, was created with the use of HDMI specifically in mind.  Most personal computers that are sold today are ready for use with HDMI, as are the majority of video game consoles in the stores currently. A set-top box also is usually compatible with HDMI, as are such entertainment options as digital television. Essentially, any type of computer interface today will function with the use of HDMI. 
+
+How Does HDMI Work?
+
+HDMI will work with a single cable connection to such devices as televisions or personal computers. In general, HDMI will function fine with any television or PC that is standard, enhanced, or high definition in the video component. However, it is important to note that HDMI does work independently of many of the DTV standards, although use of HDMI will not impact the quality of the digital transmission. Generally, these standards apply to some configurations of MPEG movie clips and files. Since these are compressed, HDMI will simply decompress the data and make it possible to view the clip. 
+
+Are All HDMI Versions The Same For All Devices?
+
+No. There is a range of specifications that are employed by HDMI, and a given device will be manufactured to comply with one of those specifications. The most simplistic specification is identified as 1.0.  With each succeeding version, the capabilities of the previous version remain intact, but are joined by other capabilities that will allow the version to function with a given device. Because technology is always advancing, HDMI continues to advance as well. However, older versions remain active, as they are often used with devices that require less functionality, and they also continue to be helpful in situations where older systems are still running and are in operation. 
+
+Where Did HDMI Come From?
+
+HDMI was created and has been enhanced by the efforts of several prominent names in the computer and electronics industry. Consumers will recognize the names of Philips, Sony, Toshiba, and Silicon Image as just part of the roster of corporations involved in the ongoing enhancement of HDMI.
+
+

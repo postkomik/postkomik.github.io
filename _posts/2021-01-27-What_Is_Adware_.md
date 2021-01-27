@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "What Is Adware?"
+author: mas cemplon
+categories: [ Computers, Technology ]
+tags: [ Computers ]
+image: 
+beforetoc: "Adware is one of many "malwares" or malicious software programs that are unknowingly installed on your computer when you visit online sites and download freebies. When you use share files or visit sites with free downloads of wallpaper, videos, or music, some of these sites will send along adware software with your download.
+
+These malwares are a rapidly growing threat to all computer systems. It is estimated that in the first three months of 2005 over 80% of computer users...."
+toc: true
+---
+
+
+
+
+
+
+
+Adware is one of many "malwares" or malicious software programs that are unknowingly installed on your computer when you visit online sites and download freebies. When you use share files or visit sites with free downloads of wallpaper, videos, or music, some of these sites will send along adware software with your download.
+
+These malwares are a rapidly growing threat to all computer systems. It is estimated that in the first three months of 2005 over 80% of computer users had some type of malware software program running on their computer, without their knowledge.
+
+Although it is much less a threat to your computer and information than spyware is, what adware will do is cause pop up banners and advertisements to appear on your computer. These advertisements are displayed on your computer no matter what program you might be using. What the people who place this type of nuisance software on you computer say is that adware advertising helps them to recover costs and allows them to offer you those freebies you want.
+
+What you want to do to stop adware from appearing on your computer is to first run an anti-adware program. Run this program on demand regularly. Along with an anti-adware software program run your regular computer virus scan on demand also.
+
+Check the security level on your computer. You security level setting should be at least medium to help protect you from unwanted downloads.
+
+Do not download free files from the internet, period. When downloading any software read the end-user license agreement. Some of these agreements will state that when you download their software you are also agreeing to accept a downloaded spyware that may be placed on your computer at the same time.
+
+Be aware of threats to your computer, and your personal information.
+
+
+THOUSANDS QUALITY but FREE PLR ARTICLES @ www.BuildWebPage.org
+You can say thanks for the articles by giving us a link back at http://www.BuildWebPage.org on your links page.
