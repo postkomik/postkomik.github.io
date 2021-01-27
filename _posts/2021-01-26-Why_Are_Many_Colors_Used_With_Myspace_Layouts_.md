@@ -9,10 +9,6 @@ beforetoc: "Myspace is the only online community, which offers various options f
 toc: true
 ---
 
-
-
-
-
 Myspace is the only online community, which offers various options for layouts. Since it is a very large community with millions of users, there are bound to be expectations for the kind of presentations with the layouts. Myspace layouts are available for free, and they are used by all members of the community.
 
 They are designed by various designers and the concepts vary, but they are all upgraded to the sites as often as possible. They are categorized according to the themes, so that it is easy for any user to pick the layout that he wants. Many hundreds of colors with various color combinations are used with Myspace layouts.
