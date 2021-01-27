@@ -12,7 +12,6 @@ toc: true
 Myspace Layouts, Myspace Backgrounds, Myspace Codes, Myspace Graphics
 
 
-
 Imagine you are part of MySpace, and that you have plenty of friends. Besides having a lot of friends, there will also be new ones who might approach you. You can also meet a lot of acquaintances for various reasons. The profile will have to look interesting; else no one will be able to take any sort of interest in them. Imagine you have to look at the same settings for all profiles; it would be boring of course.
 
 This is where the MySpace layouts will come into the picture. You will need layouts to customize the profiles to a great extent. You can do a great job with the profiles, as there will be a lot of layouts to choose from. This will be exciting to do, as there are so many unique ones to pick from. This is not only the idea of layouts; it is also to make the concept of the profiles different.
