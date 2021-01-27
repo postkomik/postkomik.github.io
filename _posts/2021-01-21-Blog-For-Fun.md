@@ -11,7 +11,6 @@ toc: true
 Blogging for Profit
 
 
-
 Blogging is becoming an increasingly popular way for entrepreneurs to earn a living online while doing something they really enjoy. In many cases bloggers can profit with very little effort. There may be quite a bit of work involved in the beginning with designing a method of gaining revenue and promoting the website but once this is established simply maintaining the blog with regular postings may be enough to keep the revenue rolling in. Two of the most popular methods for generating a profit from blogging include advertising methods. This includes advertising with AdSense and securing independent advertisers. This article will discuss these two methods of advertising on a blog. 
 
 
