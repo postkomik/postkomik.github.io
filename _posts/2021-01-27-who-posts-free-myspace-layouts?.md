@@ -26,5 +26,4 @@ Accessibility to these sites is also very easy, and one can pick free MySpace la
 They do this by coming up with highly innovative themes, even such as cartoons and various other interesting topics. These designers always try to keep their work very challenging, as they will try to keep improving each time they post a free layout. Users must make as much use as possible, as the free MySpace layouts are very exciting.
 
 
-THOUSANDS QUALITY but FREE PLR ARTICLES @ www.BuildWebPage.org
-You can say thanks for the articles by giving us a link back at http://www.BuildWebPage.org on your links page.
+
