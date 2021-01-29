@@ -2,11 +2,17 @@
 ================================================== -->
 {% if page.comments != false %} 
 <div class="comments">
-    <button class="btn btn-dark show-comments">Load Comments</button>         
+ 
+    <button class="btn btn-dark show-comments">Tampilkan Komentar</button> <br />
+    <hr>
+    <p class="btn btn-dark show-comments">20 komentar</p>        
     <div id="comments">  
-        <h4 class="mb-4">Comments</h4>                 
+        <h4 class="mb-4">Comments</h4> 
+                       
             {% include disqus.html %}     
     <div class="clearfix"></div>              
     </div>    
 </div>       
 {% endif %}
+
+
