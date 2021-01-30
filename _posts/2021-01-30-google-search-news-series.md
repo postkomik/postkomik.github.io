@@ -6,7 +6,7 @@ author: mas cemplon
 categories: [ Website ]
 tags: [ Website ]
 image: https://1.bp.blogspot.com/-xAOlLY-x-rU/YBUUf6GC3pI/AAAAAAAAOqM/ASwka3UDpg4Tdw3B-fhDhIq1CiaIfAw7ACLcBGAsYHQ/s0/3zrBlagfK7Mhq.jpg
-beforetoc: to the Google Search News Series.I hope life is treating you reasonably well wherever you are.
+beforetoc: "Google Search News (Jan ‘21) - crawling & indexing updates, link building, and more"
 toc: true
 ---
 
