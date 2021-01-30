@@ -5,7 +5,7 @@ description: "Berbagi Informasi Onlien Yang Mendidik"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
-google_analytics: 'UA-xxxxxxxx-1'
+google_analytics: 'G-S8WBW5V67Q'
 disqus: 'postkomik-github-1'
 
 include: ["_pages"]
