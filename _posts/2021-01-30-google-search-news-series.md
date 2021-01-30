@@ -6,9 +6,7 @@ author: mas cemplon
 categories: [ Website ]
 tags: [ Website ]
 image: https://1.bp.blogspot.com/-xAOlLY-x-rU/YBUUf6GC3pI/AAAAAAAAOqM/ASwka3UDpg4Tdw3B-fhDhIq1CiaIfAw7ACLcBGAsYHQ/s0/3zrBlagfK7Mhq.jpg
-beforetoc: to the Google Search News Series.
-I hope life is treating you reasonably well wherever
-you are.
+beforetoc: to the Google Search News Series.I hope life is treating you reasonably well wherever you are.
 toc: true
 ---
 
