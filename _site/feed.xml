@@ -5,8 +5,8 @@
     <description>Berbagi Informasi Onlien Yang Mendidik</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jan 2021 01:04:34 +0700</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2021 01:04:34 +0700</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2021 11:23:04 +0700</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2021 11:23:04 +0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -19,7 +19,20 @@ Berikut ini prosesnya :
 Fitur ini digunakan untuk membagikan link blogger ke banyak media sosial seperti facebook,telegram,whatsapp,blog,dan lain lain 
 dan taruh kodescript nya diatas code  boleh di bawah nya juga oke oke saja&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;&lt;iframe allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jbn08mxFl_M&quot; width=&quot;560&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1 id=&quot;youtube&quot;&gt;Youtube&lt;/h1&gt;
+
+&lt;!---
+Include this next line in your .md for Youtube videos, make sure to put your video ID up there!
+
+Example:     youtubeId: lDi9uFcD7XI
+--&gt;
+
+&lt;!-- Feel free to change the width and height to your desired video size. --&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/jbn08mxFl_M&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;2 Gunakan keyword di search engine 
   copy paste link blogger dari mesin peneusuran dan di bagikan. umum nya sama seperti cek index url blogger kita

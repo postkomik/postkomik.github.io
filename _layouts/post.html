@@ -2,6 +2,7 @@
 layout: default
 disqus: false
 archive: false
+youtubeId: jbn08mxFl_M
 post_class: post-template
 ---
 <div class="entry-header">
@@ -28,6 +29,8 @@ post_class: post-template
         </div>            
     </div>
     {% endif %}
+    
+    {% include breadcrumbs.html %}
 </div>
 
 <!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
@@ -57,7 +60,7 @@ post_class: post-template
 <!-- Comments if not disabled with comments: false -->
 {% include comments.html %}
 
-{% include youtube.html %} 
+{% include youtube.html id=page.youtubeId %}
 
 <!-- Share -->
 {% include share.html %}

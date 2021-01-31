@@ -7,6 +7,7 @@ categories: [ Website ]
 tags: [ Website ]
 image: https://1.bp.blogspot.com/-h2Wt-NMxvnE/YBWXPGlLbII/AAAAAAAAOqY/a_J7QHgVQdAMEBg50-ja2lcyt8B77AP5wCLcBGAsYHQ/s1071/share.png
 beforetoc: "Cara membagikan link blogger to facebook"
+youtubeId: jbn08mxFl_M
 toc: true
 ---
 
@@ -20,7 +21,15 @@ Fitur ini digunakan untuk membagikan link blogger ke banyak media sosial seperti
 dan taruh kodescript nya diatas code  boleh di bawah nya juga oke oke saja 
 
 
-<p align="center"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/jbn08mxFl_M" width="560"></iframe></p>
+#  Youtube
+
+<!---
+Include this next line in your .md for Youtube videos, make sure to put your video ID up there!
+
+Example:     youtubeId: lDi9uFcD7XI
+-->
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 2 Gunakan keyword di search engine 
   copy paste link blogger dari mesin peneusuran dan di bagikan. umum nya sama seperti cek index url blogger kita
