@@ -9,7 +9,7 @@ beforetoc: "Homeschooling has increased more in the past few years than it has f
 toc: true
 ---
 
-Homeschooling has increased more in the past few years than it has for the past decades. Initially, homeschooling or any type of private education wasnt allowed in the United States, but when a public court ruled for the Society of Sisters for the Holy Names of Jesus and Mary and allowed them to set up a private school in 1925, public schools werent the only institutions providing education to children. This sparked the homeschooling idea and not long after, parents have decided to educate their children in their own homes.
+Homeschooling has increased more in the past few years than it has for the past decades. Initially, homeschooling or any type of private education wasnt allowed in the United States, but when a public court ruled for the Society of Sisters for the Holy Names of Jesus and Mary and allowed them to set up a private school in 1925, public schools werent the only institutions providing education to children. This sparked the homeschooling idea and not long after, parents have decided to educate their children in their own homes.
 
 
 
@@ -21,7 +21,7 @@ In California, homeschoolers have three choices, thay can use a credited tutor, 
 
 
 
-Certain courses, similar to that of public schools, that can fit into a few pages, (contrary to the hundreds of pages required of public schoosl) need to be present, as well as attendance records. But teachers need not have credentials, they must simply be capable of teaching.
+Certain courses, similar to that of public schools, that can fit into a few pages, (contrary to the hundreds of pages required of public schoosl) need to be present, as well as attendance records. But teachers need not have credentials, they must simply be capable of teaching.
 
 
 
@@ -29,7 +29,7 @@ Differences in state requirements can also be observed in testing and assessment
 
 
 
-Graduating procedures also differ with states, some require that home schools be operated as private schools, have graduation procedures that doent differ from private school gradaution. However, some have no graduation requirements at all; basically, the schools determine who graduates or not, this applies to homeschoolers in the state as well. In other states, homeschoolers receive no recognition, but are still granted access to colleges and universities.
+Graduating procedures also differ with states, some require that home schools be operated as private schools, have graduation procedures that doent differ from private school gradaution. However, some have no graduation requirements at all; basically, the schools determine who graduates or not, this applies to homeschoolers in the state as well. In other states, homeschoolers receive no recognition, but are still granted access to colleges and universities.
 
 
 

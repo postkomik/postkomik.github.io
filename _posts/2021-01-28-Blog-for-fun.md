@@ -29,7 +29,7 @@ How Advertisements on a Blog Generate Revenue
 
 
 
-Many bloggers use advertisements on their blogs to generate a profit. This method of advertising is more difficult than using AdSense but it can be significantly more financially beneficial to the blogger. This method of advertising is similar to the type of targeted advertising often seen in magazines. For example magazines for parents often feature advertisements which will appeal to parents such as advertisements for toys, childrens clothing or foods popular with children. Likewise a magazine for runners may feature advertisements for shoes, athletic clothing, races or training equipment. In these cases the advertisers pay for advertising space in the magazine in the hopes that the magazines audience will be enticed to purchase products or services after seeing these advertisements.
+Many bloggers use advertisements on their blogs to generate a profit. This method of advertising is more difficult than using AdSense but it can be significantly more financially beneficial to the blogger. This method of advertising is similar to the type of targeted advertising often seen in magazines. For example magazines for parents often feature advertisements which will appeal to parents such as advertisements for toys, childrens clothing or foods popular with children. Likewise a magazine for runners may feature advertisements for shoes, athletic clothing, races or training equipment. In these cases the advertisers pay for advertising space in the magazine in the hopes that the magazines audience will be enticed to purchase products or services after seeing these advertisements.
 
 
 
@@ -37,7 +37,7 @@ Blog owners can use this type of advertising but it can be hard to find willing 
 
 
 
-Another important factor for advertisers is the focus of the blog. Advertisers are more likely to purchase advertising space from a blog with a specific focus of interest to the advertisers target audience. Like the examples listed previously of magazines for parents and runners, advertisers want to advertise on a blog which is already reaching the same target audience. 
+Another important factor for advertisers is the focus of the blog. Advertisers are more likely to purchase advertising space from a blog with a specific focus of interest to the advertisers target audience. Like the examples listed previously of magazines for parents and runners, advertisers want to advertise on a blog which is already reaching the same target audience. 
 
 
 
@@ -117,7 +117,7 @@ Finding Time to Blog
 
 
 
-One of the problems which many bloggers face is finding the time to blog. This is especially difficult if the blogger maintains several blogs or if the blogger maintains a current events blog in which posts must be timely in order to be relevant and of interest to the readers. Writing blog posts in batches and scheduling them to publish as needed is one way to deal with managing several blogs. However, writers of blogs related to current events must take special care to budget their time wisely to ensure they are publishing topical blog posts. One way this can be accomplished is by setting aside time daily to reading current events to derive inspiration and then scheduling time after that to write and publish the blog. For example a blogger with a current events blog might choose to review the previous days news the first thing in the morning to ensure they are reviewing all of the relevant news from the previous day before writing the blog post. 
+One of the problems which many bloggers face is finding the time to blog. This is especially difficult if the blogger maintains several blogs or if the blogger maintains a current events blog in which posts must be timely in order to be relevant and of interest to the readers. Writing blog posts in batches and scheduling them to publish as needed is one way to deal with managing several blogs. However, writers of blogs related to current events must take special care to budget their time wisely to ensure they are publishing topical blog posts. One way this can be accomplished is by setting aside time daily to reading current events to derive inspiration and then scheduling time after that to write and publish the blog. For example a blogger with a current events blog might choose to review the previous days news the first thing in the morning to ensure they are reviewing all of the relevant news from the previous day before writing the blog post. 
 
 
 
@@ -215,7 +215,7 @@ Finding Blogs on Message Boards
 
 
 
-Many Internet users rely on message boards to find interesting and informative blogs. This is because many message board participants who have a blog often find ways to make others aware of this blog. This may either be through the process of incorporating a link to the blog in the message board users signature or, when appropriate, supplying the link to the blog directly in the message body of a post on the message board. Although many bloggers may take advantage of the opportunity to promote their own blog through message boards, those who are interested in finding new blogs will likely not have time to review all of these blogs. Therefore, it is wise for these Internet users to be somewhat discriminating about the blogs they choose to visit. One way to do this is to only visit blogs of regular forum posters who offer valuable information to the conversations on the message board. The Internet user may also wish to avoid blogs which appear to be posted as spam. This is important because these blogs are not only likely poor quality but also visiting these blogs only encourages the blog owner to continue to spam message boards with his link. 
+Many Internet users rely on message boards to find interesting and informative blogs. This is because many message board participants who have a blog often find ways to make others aware of this blog. This may either be through the process of incorporating a link to the blog in the message board users signature or, when appropriate, supplying the link to the blog directly in the message body of a post on the message board. Although many bloggers may take advantage of the opportunity to promote their own blog through message boards, those who are interested in finding new blogs will likely not have time to review all of these blogs. Therefore, it is wise for these Internet users to be somewhat discriminating about the blogs they choose to visit. One way to do this is to only visit blogs of regular forum posters who offer valuable information to the conversations on the message board. The Internet user may also wish to avoid blogs which appear to be posted as spam. This is important because these blogs are not only likely poor quality but also visiting these blogs only encourages the blog owner to continue to spam message boards with his link. 
 
 
 

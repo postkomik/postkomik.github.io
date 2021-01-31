@@ -37,4 +37,4 @@ Members of Blogger should also be aware that the Terms of Service may change and
 
 
 
-Members of Blogger should pay particular attention to the section of the Terms of Service which specify causes for termination of a members account. This information is important because it will help to prevent the member from inadvertently performing an action which may result in his account being terminated or suspended. Blogger is not required to inform the member of the infractions before suspending the account so a member will likely lose his account before he is even aware he has violated the Terms of Service agreement.
+Members of Blogger should pay particular attention to the section of the Terms of Service which specify causes for termination of a members account. This information is important because it will help to prevent the member from inadvertently performing an action which may result in his account being terminated or suspended. Blogger is not required to inform the member of the infractions before suspending the account so a member will likely lose his account before he is even aware he has violated the Terms of Service agreement.

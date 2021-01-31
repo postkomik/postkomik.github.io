@@ -47,7 +47,7 @@ In the army we taught by telling students what we were going to teach them, doin
 
 P.S.  Don't miss their last caveat.
 
-MS#31. "Because your PC lets you know if something's wrongand helps you fix it"
+MS#31. "Because your PC lets you know if something's wrongand helps you fix it"
 
 Sorry, The Tennessee Mountain Man could find nothing new here either unless the user has been more lazy than most.  It was all available with earlier, faster, less expensive, and less intrusive operating systems.
 
@@ -83,7 +83,7 @@ MS#38. "It's the cure for red-eye"
 
 No, they were not brazen enough to say it would keep you from working nights.  What they are doing is touting an existing technology.
 
-MS#39. "Relive your memorieseach and every one"
+MS#39. "Relive your memories each and every one"
 
 O.K. Microsoft likes to be redundant, remote computer repair services does not.
 
