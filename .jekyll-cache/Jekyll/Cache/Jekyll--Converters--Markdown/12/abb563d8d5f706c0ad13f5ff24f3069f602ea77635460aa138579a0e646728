@@ -1,4 +1,4 @@
-I"”<!-- Posts Index
+I"½<!-- Posts Index
 ================================================== -->
 <div class="blog-grid-container">
     {% for post in paginator.posts %}
@@ -11,8 +11,10 @@
 <div class="bottompagination">
 <span class="navigation" role="navigation">
     {% include pagination.html %}
+  
    
-</span>
+</span> <br />
+    {% include youtube.html %}
 </div>
 
 :ET
