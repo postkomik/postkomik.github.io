@@ -83,7 +83,7 @@ MS#61. "Stand strong against hackers"
 
 Come on...come on!  Stop laughing and get back to work.
 
-MS#62. "Because it remembers what you like to doand helps you do it faster"
+MS#62. "Because it remembers what you like to do and helps you do it faster"
 
 Please refer to MS#59 above!  Then go immediately to the Prefetch File located in C:\\Windows and dump it's contents.  Do this daily and note the improvement in OS response time.
 
