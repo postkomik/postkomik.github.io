@@ -10,7 +10,7 @@ beforetoc: "Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya
   in"
 toc: true
 date: 2021-02-04T14:29:30.403Z
-rating: 4
+
 --- 
 
 Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya sedikit menipu. Dan siapakah saya untuk mengatakan bahwa itu bukan? Namun saya ingin Anda memperhatikan satu hal. Kara senang diberi pilihan antara ya dan ya.
