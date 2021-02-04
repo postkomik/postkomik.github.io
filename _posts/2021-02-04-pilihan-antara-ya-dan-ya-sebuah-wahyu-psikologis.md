@@ -11,8 +11,6 @@ beforetoc: Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya
 date: 2021-02-04T14:29:30.403Z
 rating: 4
 ---
-Anda menertawakan ceritanya, bukan?
-
 Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya sedikit menipu. Dan siapakah saya untuk mengatakan bahwa itu bukan? Namun saya ingin Anda memperhatikan satu hal. Kara senang diberi pilihan antara ya dan ya.
 
 Klien Anda tidak jauh berbeda
