@@ -5,11 +5,12 @@ author: mas cemplon
 categories: Karakter
 tags: Karakter
 image: https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
-beforetoc: Kara yang berusia tiga tahun membuat ulah. Dia tidak ingin pergi
-  tidur, dia yakin. "Apakah Anda ingin menyikat dengan pasta gigi merah atau
-  biru?" ayahnya bertanya dengan lembut.
+beforetoc: Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya
+  sedikit menipu. Dan siapakah saya untuk mengatakan bahwa itu bukan? Namun saya
+  ingin Anda memperhatikan satu hal. Kara senang diberi pilihan antara ya dan
+  ya.
 date: 2021-02-04T14:29:30.403Z
-rating: ""
+rating: 4
 ---
 Anda menertawakan ceritanya, bukan?
 
