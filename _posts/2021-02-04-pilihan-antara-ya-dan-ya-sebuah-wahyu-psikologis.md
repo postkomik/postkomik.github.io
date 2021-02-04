@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pilihan antara Ya dan Ya - Sebuah Wahyu Psikologis
+title: Pilihan antara Ya  Sebuah Wahyu Psikologis
 author: mas cemplon
 categories: Karakter
 tags: Karakter
@@ -9,7 +9,7 @@ beforetoc: Kara yang berusia tiga tahun membuat ulah. Dia tidak ingin pergi
   tidur, dia yakin. "Apakah Anda ingin menyikat dengan pasta gigi merah atau
   biru?" ayahnya bertanya dengan lembut.
 date: 2021-02-04T14:29:30.403Z
-rating: 5
+rating: ""
 ---
 Anda menertawakan ceritanya, bukan?
 
