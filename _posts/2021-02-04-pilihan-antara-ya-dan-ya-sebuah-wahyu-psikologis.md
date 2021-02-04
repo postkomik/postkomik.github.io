@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Pilihan antara Ya  Sebuah Wahyu Psikologis
+title:  "Pilihan antara Ya  Sebuah Wahyu Psikologis"
 author: mas cemplon
-categories: Karakter
-tags: Karakter
+categories: [ Karakter ]
+tags: [ Karakter ]
 image: https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
-beforetoc: Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya
+beforetoc: "Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya
   sedikit menipu. Dan siapakah saya untuk mengatakan bahwa itu bukan? Namun saya
-  in
+  in"
+toc: true
 date: 2021-02-04T14:29:30.403Z
 rating: 4
----
+--- 
+
 Metode yang digunakan untuk membawa Kara ke tempat tidur sepertinya sedikit menipu. Dan siapakah saya untuk mengatakan bahwa itu bukan? Namun saya ingin Anda memperhatikan satu hal. Kara senang diberi pilihan antara ya dan ya.
 
 Klien Anda tidak jauh berbeda
@@ -52,13 +54,3 @@ Jangan berhenti di satu titik. Ambil konsep melalui langkahnya
 Jika Anda sedang berkonsultasi, lihat pilihan antara ya dan ya. Apakah Anda memberi pelanggan pilihan antara paket A dan paket B. Atau apakah Anda hanya menawarkan satu paket? Jika Anda menjual produk, konsep pilihan ya dan ya tetap dipertahankan.
 
 Dan begitu Anda telah menemukan bahwa konsepnya berhasil, puh-lease tidak melakukan sedikit pun. Audit setiap kemungkinan barang yang Anda jual. Dan masukkan faktor ya dan ya. Hal ini tidak hanya akan memberi Anda jumlah penjualan yang lebih tinggi, tetapi juga harga yang jauh lebih baik untuk setiap tugas produk / konsultasi yang Anda lakukan.
-
-Saya menjawab ya dan ya ... BUKAN ya dan ya dan ya dan ya
-
-Kamu, aku, kita semua mendambakan pilihan. Tapi beri kami terlalu banyak dan kami akan sedikit waka-waka di otak kami. Karena pilihan didasarkan pada penolakan. Untuk memilih es krim rasa stroberi, Anda harus secara mental menolak semua rasa lainnya.
-
-Jika Anda memberi klien terlalu banyak untuk dipilih, mereka akhirnya akan memutar mata, melakukan pemeriksaan RAM dan mematikan otak mereka sebelum Anda punya waktu untuk melakukan apa pun.
-
-Pertahankan pilihan Anda tetap sederhana. Pertahankan pilihan antara ya dan ya.
-
-Sehingga bahkan anak berusia tiga tahun pun tidak kesulitan memilih!
