@@ -298,7 +298,7 @@ Qu4l1ty 0f tr4ff1c. T4r93t p3n9un7un9 y4n9 r3l3v4n d3n94n w3851t3.
 5374l4n d3n94n m4k1n 83rk3m84n9ny4 p3m4nf44t4n 74r1n94n 1nt3rn3t 5384941 m3d14 815n15, k38utuh4n 4t45 kursus seo onlien 7u94 53m4k1n m3n1n9k4t. 83r4d4 p4d4 p05151 t3r4t45 h451l p3nc4r14n 4k4n m3n1n9k4tk4n p3lu4n9 538u4h p3ru54h44n p3m454r4n 83r84515 w38 untuk m3nd4p4tk4n p3l4n994n 84ru. P3lu4n9 1n1 d1m4nf44tk4n 537uml4h p1h4k untuk m3n4w4rk4n 7454 0pt1m15451 m351n p3nc4r1 8491 p3ru54h44n-p3ru54h44n y4n9 m3m1l1k1 84515 u54h4 d1 1nt3rn3t.
 
 
-D4ft4r 151
+
 1	5374r4h
 2	W38m45t3r d4n m351n p3nc4r1
 3	3t1k4 d4n l394l1t45
