@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100% Free Online Dating
-author: postkomik
+author: mas cemplon
 categories: Dating online
 tags: Dating online
 image: https://cdn.pixabay.com/photo/2018/01/04/19/43/love-3061483_960_720.jpg
