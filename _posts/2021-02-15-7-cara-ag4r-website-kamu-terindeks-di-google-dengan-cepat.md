@@ -4,7 +4,7 @@ title: 7 Cara Ag4r Website Kamu Terindeks di Google Dengan Cepat
 author: mas cemplon
 categories: website
 tags: website
-image: /assets/images/uploads/google.png
+image: https://1.bp.blogspot.com/-b9Zu29BIcGk/YCn9lc4lNqI/AAAAAAAAO0M/ca7lDRSoW-cDmcuQtGPApC_MXNGwx7XAwCLcBGAsYHQ/s0/google.png
 beforetoc: 7 Cara Agar Website Kamu Terindeks di Google Dengan Cepat
 date: 2021-02-11T15:06:40.781Z
 ---
