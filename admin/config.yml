@@ -43,7 +43,7 @@ collections:
   
   - name: "categories" # Used in routes, e.g., /admin/collections/blog
     label: "Categories" # Used in the UI
-    folder: "category" # The path to the folder where the documents are stored
+    folder: "_category" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -54,7 +54,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "category"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}"}
+      - {label: "Slugs", name: "slugs", widget: "hidden", default: "{{slug}}"}
       - {label: "Description", name: "description", widget: "string", required: "false"}
       
       
