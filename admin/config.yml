@@ -39,20 +39,28 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       
-  - name: "Categories"
-    label: "categories"
-    folder: "category"
-    create: true
+  
+  
+  - name: "categories" # Used in routes, e.g., /admin/collections/blog
+    label: "Categories" # Used in the UI
+    folder: "category" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
     editor:
       preview: false
     slug: "{{slug}}"
     preview_path: "category/{{slug}}"
     extension: "md"
-    fields:
+    fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "category"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}"}
       - {label: "Description", name: "description", widget: "string", required: "false"}
+      
+      
+      
+
+   
       
       
       
