@@ -41,8 +41,8 @@ collections:
       
   
   
-  - name: "categori" # Used in routes, e.g., /admin/collections/blog
-    label: "Categories" # Used in the UI
+  - name: "Tags" # Used in routes, e.g., /admin/collections/blog
+    label: "kategori" # Used in the UI
     folder: "category" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
