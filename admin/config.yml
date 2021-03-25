@@ -41,8 +41,8 @@ collections:
       
   
   
-  - name: "category" # Used in routes, e.g., /admin/collections/blog
-    label: "Category" # Used in the UI
+  - name: "categories" # Used in routes, e.g., /admin/collections/blog
+    label: "Categories" # Used in the UI
     folder: "category" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
