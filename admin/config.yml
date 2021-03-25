@@ -41,21 +41,18 @@ collections:
       
   
   
-  - name: "slug" # Used in routes, e.g., /admin/collections/blog
-    label: "Slugs" # Used in the UI
+  - name: "categories" # Used in routes, e.g., /admin/collections/blog
+    label: "Categories" # Used in the UI
     folder: "_category" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    
-    slug: "{{slug}}"
-    preview_path: "category/{{slug}}"
-    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "slug"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "categories"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "hidden", default: "categories"}
-      - {label: "Description", name: "description", widget: "string", required: "false"}
-      
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Comments", name: "comments", widget: "true"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
       
       
 
