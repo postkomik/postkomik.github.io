@@ -39,6 +39,30 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       
-      
+   - label: "Categories"
+    name: "categories"
+    folder: "category"
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    preview_path: "category/{{slug}}"
+    extension: "md"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "category"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Slug"
+        name: "slug"
+        widget: "hidden"
+        default: "{{slug}}"
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        required: false   
       
  
