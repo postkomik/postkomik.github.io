@@ -9,7 +9,7 @@ google_analytics: 'G-S8WBW5V67Q'
 disqus: 'postkomik-github-1'
 
 include: ["_pages"]
-include: ["_category"]
+
 permalink: /:title/
 email: Ahmadalwy@gmail.com
 
