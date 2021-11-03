@@ -4,7 +4,7 @@ title: Uang 5,8 Miliar Rupiah di Rekening Raib, Nasabah Gugat Bank
 author: postkomik
 categories: Ekonomi
 tags: Bank
-image: https://img.youtube.com/vi/N1jmLPAbSKo
+image: https://img.youtube.com/vi/N1jmLPAbSKo/hqdefault.jpg
 beforetoc: Imam Rofii, warga Desa Jati Wetan, Kecamatan Jati, Kudus, Jawa
   Tengah, melayangkan gugatan di pengadilan negeri Kudus, Jawa Tengah, setelah
   uang sebanyak 5,8 miliar rupiah yang ada di rekeningnya tiba tiba raib
