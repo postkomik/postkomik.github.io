@@ -1,0 +1,19 @@
+<div class="chnav ctop nomirror">
+    <span class="selector slc l">
+        <div class="nvx">
+            <select name="chapter" id="chapter" onchange="this.options[this.selectedIndex].value&amp;&amp;window.open(this.options[this.selectedIndex].value,'_self')">
+                <option value="" disabled="disabled">Pilih Chapter</option>
+
+                {% for post in site.posts %}
+                {% if post.category contains page.category %}
+                
+                <option  value="{{ post.url }}">{{ post.title }}</option>
+                {% endif %}
+                {% endfor %}
+
+            </select>
+        </div>
+    </span>
+
+
+</div>

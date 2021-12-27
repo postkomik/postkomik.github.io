@@ -1,0 +1,7 @@
+#loop data
+        {% for page in site.pages %}
+        {% if page.tag contains page.tag %} 
+        {{ page.genre }}
+        {% endif %}
+        {% endfor %} 
+# end

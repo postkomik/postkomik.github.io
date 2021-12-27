@@ -1,0 +1,18 @@
+<div class="ts-breadcrumb bixbox">
+    <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">basmanga</span></a>
+            <meta itemprop="position" content="1">
+        </li>
+        ›
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/komik/{{ page.category }}"><span itemprop="name">{{ page.subtitle }}</span></a>
+            <meta itemprop="position" content="2">
+        </li>
+        ›
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ post.url | prepend: site.baseurl }}"><span itemprop="name">{{ page.subtitle }} {{ page.title }}</span></a>
+            <meta itemprop="position" content="3">
+        </li>
+    </ol>
+</div>

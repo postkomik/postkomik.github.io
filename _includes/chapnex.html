@@ -1,0 +1,31 @@
+{% assign weighted_categories = site.category_weights %}
+{% assign categories = site.categories %}
+{% assign page_category = page.category %}
+{% assign page_title = page.title %}
+
+{% for category in categories %}
+  <span class="npv r">
+    {% assign sorted_articles = category[1] | sort: 'weight' %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% if category_name == page_category %}
+      {% for article in sorted_articles %}
+       {% if article.title == page_title %}
+       {% assign currIndex = forloop.index0 %}
+       {% assign prevIndex = currIndex | minus: 1 %}
+       {% assign nextIndex = currIndex | plus: 1 %}
+       {% assign articleIndexLength = forloop.length | minus: 1 %}
+       <div class="nextprev">
+       {% if currIndex == 0 %}
+       <a class="ch-next-btn" href="{{ site.url }}{{ site.baseurl }}{{ sorted_articles[nextIndex].url }}" rel="next">{{ sorted_articles[nextIndex].title }} &raquo;</a>
+       {% elsif currIndex < articleIndexLength and currIndex != 0 %}
+       <a class="ch-prev-btn" href="{{ site.url }}{{ site.baseurl }}{{ sorted_articles[prevIndex].url }}" rel="prev">&laquo; {{ sorted_articles[prevIndex].title }}</a>
+       <a class="ch-next-btn" href="{{ site.url }}{{ site.baseurl }}{{ sorted_articles[nextIndex].url }}" rel="next">{{ sorted_articles[nextIndex].title }} &raquo;</a>
+       {% elsif currIndex == articleIndexLength %}
+       <a class="ch-prev-btn" href="{{ site.url }}{{ site.baseurl }}{{ sorted_articles[prevIndex].url }}" rel="prev">&laquo; {{ sorted_articles[prevIndex].title }}</a>
+       {% endif %}
+     </div>
+      {% endif %}
+      {% endfor %}
+    {% endif %}
+  </span>
+{% endfor %}

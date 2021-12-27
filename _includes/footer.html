@@ -1,0 +1,51 @@
+ <div id="footer">
+     <footer id="colophon" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter" role="contentinfo">
+         <div class="footercopyright">
+             <div class="copyright">
+                 <div class="txt">
+                     <p>Semua komik di website ini hanya preview dari komik aslinya,
+                         mungkin banyak terdapat kesalahan bahasa, nama tokoh, dan alur cerita.
+                         Untuk versi originalnya silahkan beli komiknya jika sudah tersedia di
+                         kotamu.</p>
+                     
+                 </div>
+             </div>
+         </div>
+     </footer>
+ </div>
+ <a href="#" class="scrollToTop" style="display: inline;">^</a>
+ <script>
+     function timeAgo(o) {
+         var t = (new Date).getTime() - o.getTime(),
+             e = Math.floor(t / 1e3),
+             r = Math.floor(e / 60),
+             a = Math.floor(r / 60),
+             g = Math.floor(a / 24),
+             h = Math.floor(g / 30),
+             n = Math.floor(h / 12);
+         return 0 === t ? "Just now" : e < 60 ? e + " seconds Ago" : r < 60 ? r + " menit lalu" : a < 24 ? a + " jam lalu" : g < 30 ? g + " hari lalu" : h < 12 ? h + " bulan lalu" : n + " tahun lalu"
+     }
+
+     $(".epxdate").each(function() {
+         $(this).html(timeAgo(new Date($(this).text())));
+     });
+ </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8WBW5V67Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8WBW5V67Q');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-05NDHWW2C1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-05NDHWW2C1');
+</script>
+ <script async src="https://cse.google.com/cse.js?cx=5e724234f6f5e57b7"></script>

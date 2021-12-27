@@ -1,0 +1,30 @@
+
+
+<div class="bixbox bxcl epcheck">
+    <div class="releases">
+        <h2>Chapter Komik {{ page.title }}</h2>
+    </div>
+    <div class="eplister" id="chapterlist">
+
+        <ul>
+        {% for post in site.posts %}
+        {% if post.category contains page.category %}			
+            <li data-num="1.1">
+                <div class="chbox">
+                    <div class="eph-num">
+                        <a href="{{ post.url }}">
+                            <span class="chapternum">{{ post.title }}</span>
+                            <span class="epxdate">{{ post.date | date: "%b %d, %Y" }}</span>
+                        </a>
+                    </div>
+                    <div class="dt">
+                        <a href="{{ post.url }}" rel="nofollow" class="dload" target="_blank"><i class="fas fa-cloud-download-alt"></i></a>
+                    </div>
+                </div>
+            </li>
+        {% endif %}
+        {% endfor %}            
+        </ul>
+
+    </div>
+</div>

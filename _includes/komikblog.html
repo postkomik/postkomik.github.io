@@ -1,0 +1,12 @@
+<script>
+    function ambildata(data){
+    //console.log(data.feed.entry[0].content.$t);
+     // var coba = data.feed.entry[0].content.$t);
+    var post = data.entry, // The post/page object
+    postContent = post.content ? post.content.$t : post.summary.$t.replace(/<br *\/?>|[\s]+/gi, ' ').replace(/<.*?>|[<>]/g, ""); 
+ document.write('<p>'+postContent+'</p>');
+    }
+    </script>
+
+
+<script src="https://dojokomik.blogspot.com/feeds/posts/default/{{ include.id }}?alt=json-in-script&callback=ambildata"></script>

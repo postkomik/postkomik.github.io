@@ -1,0 +1,141 @@
+
+<div class="wrapper">
+    <div class="hotslid">
+     <div class="gcse-search"></div>   
+    </div><br />
+    <div class="hotslid">
+        <div class="bixbox hothome full">
+            <div class="releases">
+                <h2>Komik Popular Hari Ini...</h2>
+            </div>
+            <div class="listupd">
+                {% assign counter = '0' %}
+                {% for page in site.pages %}
+                {% for label in page.label %}
+                {% if label == "Series" and counter < '7' %}
+                {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+                <div class="bs">
+
+                    <div class="bsx">
+
+                        <a href="{{ page.url }}/" title="{{ page.title }}">
+                            <div class="limit">
+                                <div class="ply"></div>
+                                <span class="type Manga"></span> <span class="hotx"><i class="fab fa-hotjar"></i></span> <img src="{{ page.image }}" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy">
+                            </div>
+                            <div class="bigor">
+
+                                <div class="tt">
+                                    <a href="{{ site.url }}{{ site.baseurl }}/komik/{{ page.category }}/" title="{{ page.subtitle }}">{{ page.subtitle }}</a>
+                                </div>
+
+                                <div class="adds">
+                                    {% for post in site.posts %}
+                                    {% if post.category contains page.category %}
+                                    <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.subtitle }} {{ post.title }}">
+                                        <div class="epxs">{{ post.title }}</div>
+                                    </a>
+
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+                </div>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="postbody">
+        <div class="bixbox">
+
+            <div class="releases">
+                <h2>UPDATE KOMIK LAINYA...</h2><a class="vl" href="{{ site.baseurl }}/">View All</a>
+            </div>
+            <div class="listupd">
+                {% for post in paginator.posts %}
+                <div class="bs styletere">
+                    <div class="bsx">
+
+                        <a href="{{ site.url }}{{ site.baseurl }}/komik/{{ post.category }}" title="{{ post.subtitle }}">
+                            <div class="limit">
+                                {% if post.image %}
+                                <div class="ply"></div>
+                                <span class="type Manhwa"></span> <span class="colored"><i class="fas fa-palette"></i> Read Now ! </span> <img src="{{ post.image }}" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy">
+                                {% endif %}
+                            </div>
+                        </a>
+                        <div class="bigor">
+                            <div class="tt">
+                                <a href="{{ site.url }}{{ site.baseurl }}/komik/{{ post.category }}" title="{{ post.subtitle }}">{{ post.subtitle }}</a>
+                            </div>
+                            <div class="adds">
+                                <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.subtitle }} {{ post.title }}">
+                                    <div class="epxs">{{ post.title }}</div>
+                                </a>
+                                <div class="epxdate">{{ post.date | date: "%b %d, %Y" }}</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="hpage">
+
+                </div>
+
+                <div class="pagination">
+                    {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path }}" class="previous" onclick="ga('send', 'event', 'pagination', 'click', 'page previous')">
+                        <svg style="height:10px;">
+                            <use xlink:href="#icon-arrow-right"></use>
+                        </svg>
+                    </a>
+                    {% endif %}
+                    <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                    {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path }}" class="next" onclick="ga('send', 'event', 'pagination', 'click', 'page next')">
+                        <svg style="height:10px;">
+                            <use xlink:href="#icon-arrow-right"></use>
+                        </svg>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+
+        </div>
+        <div class="bixbox bxcl epcheck">
+            <div class="releases">
+                <h2> List Genre</h2>
+            </div>
+            <div class="eplister" id="chapterlist">
+                <ul>
+                    {% for page in site.pages %}
+                    {% if page.category contains 'genre' %}
+                    <li data-num="1.1">
+                        <div class="chbox">
+                            <div class="eph-num">
+                                <a href="{{ page.url }}/">
+                                    <span class="chapternum">{{ page.title }}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% include sidebar.html %}
+
+
+
+</div>

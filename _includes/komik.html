@@ -1,0 +1,91 @@
+ <div class="wrapper">
+   <div class="gcse-search"></div> 
+ </div>
+ <br/>
+  <div class="wrapper">
+      <div class="postbody">
+          <div class="bixbox">
+              <div class="releases">
+                  {% include breadcrume-komik.html %}
+              </div>
+              <div class="arleth98">
+                  <h2 class="goled">Manga Komik {{ page.title }} Bahasa Indonesia </h2>
+                  <div class="inf-wrap">
+                      <div class="img-thumb">
+                          {% if page.image %}
+                          <img src="{{ page.image }}" alt="{{ page.title }}">
+                          {% endif %}
+                      </div>
+                      <div class="inf-inc">
+                          <div class="lol"><b>Status</b>: {{ page.status }}</div>
+                          <div class="lol"><b>Released</b>: <span class="epxdate">{{ page.date | date: "%b %d, %Y"  }}</span></div>
+                          <div class="lol"><b>Type</b>: {{ page.type }}</div>
+
+                          {% assign author = site.authors | where: "name", page.author | first %}
+                          {% if author %}
+                          <div class="lol"><b>Post By</b>: <a href="{{ author.url }}"><span class="post-autor">{{ author.display_name }}</span></a></div>
+                          {% endif %}
+
+                          <div class="lol"><b>Genres</b>: {{ page.genre}}
+                          </div>
+                          <div class="lol"><b>Keyword</b>: baca Manga, Baca Komik, Baca Manhua bahasa indonesia</div>
+                          <div class="lol"><b>Name Blog</b>: {{ site.url }}{{ site.baseurl }}/</div>
+                          <div class="lol"><b>Cms</b>: Jekyll github pages</div>
+                      </div>
+                  </div>
+                  
+                  <br />
+                  <div class="synopsis">
+                    {% include share.html %}
+                  </div>
+                  <br />
+                  <div class="synopsis">
+
+                      <b>Sinopsis Komik Manga {{ page.title }} :</b><br />
+                      <div class="content">
+                          <script type="application/ld+json">
+                              {
+                                  "@context": "https://schema.org/",
+                                  "@type": "BreadcrumbList",
+                                  "itemListElement": [{
+                                      "@type": "ListItem",
+                                      "position": 1,
+                                      "name": "{{ site.title }}",
+                                      "item": "{{ site.url }}{{ site.baseurl }}"
+                                  }, {
+                                      "@type": "ListItem",
+                                      "position": 2,
+                                      "name": "{{ page.type }}",
+                                      "item": "{{ site.url }}{{ site.baseurl }}/{{ page.subtype }}/"
+                                  }, {
+                                      "@type": "ListItem",
+                                      "position": 3,
+                                      "name": "{{ page.title }}",
+                                      "item": "{{ post.url | prepend: site.baseurl }}"
+                                  }]
+                              }
+                          </script>
+                          {{ content }}
+                      </div>
+                  </div>
+
+
+                  <div class="synopsis">
+                      {% include daftarisichapter.html %}
+                  </div>
+              </div>
+              <div id="comments" class="bixbox comments-area">
+                  <div class="releases">
+                      <h2><span>Comment</span></h2>
+                  </div>
+                  <div class="cmt commentx">
+
+                      <div id="disqus_thread">
+                          {% include disqus.html %}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      {% include sidebar.html %}
+  </div>

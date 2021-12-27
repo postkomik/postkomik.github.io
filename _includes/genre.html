@@ -1,0 +1,22 @@
+<div class="serieslist">
+    <ul>
+        {% for page in site.genre %}
+        {% if page.type contains "genre" %}
+        <li>
+            <div class="imgseries"><a class="series" href="{{ page.url }}" rel="139958"><img src="{{ page.image }}" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy"></a></div>
+            <div class="leftseries">
+                <h2>
+                    <a class="series" href="{{ page.url }}">{{ page.title }}</a>
+                </h2>
+                <span>
+                    <b>Genres</b>:
+                    <a href="{{ page.url }}" rel="tag">{{ page.title }}</a>,
+
+                </span>
+                {{ content }}
+            </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

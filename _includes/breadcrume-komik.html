@@ -1,0 +1,18 @@
+<div class="ts-breadcrumb bixbox">
+    <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/"><span itemprop="name">Basmanga</span></a>
+            <meta itemprop="position" content="1">
+        </li>
+        ›
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/{{ page.subtype }}/"><span itemprop="name">{{ page.type }}</span></a>
+            <meta itemprop="position" content="2">
+        </li>
+        ›
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ post.url | prepend: site.baseurl }}"><span itemprop="name"> {{ page.title }}</span></a>
+            <meta itemprop="position" content="3">
+        </li>
+    </ol>
+</div>

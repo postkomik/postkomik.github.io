@@ -1,24 +1,13 @@
 ---
-layout: default
-title: Home
+layout: main
+title: postkomik
+email: alwyahmad23@gmail.com
+description: Situs baca manga bahasa indonesia online
+logo: 'assets/images/logo.png'
+url: "https://postkomik.netlify.app" # the base hostname & protocol for your site
+google_analytics: G-PT6YT9Q8Z7
 ---
 
-<!-- Posts Index
-================================================== -->
-<div class="blog-grid-container">
-    {% for post in paginator.posts %}
-        {% include postbox.html %}
-    {% endfor %}
-</div>
+{% include main.html %}   
 
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<span class="navigation" role="navigation">
-
-  
-   
-</span> <br />
-    {% include youtube.html %}
-</div>
 

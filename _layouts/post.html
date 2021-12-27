@@ -1,110 +1,142 @@
----
-layout: default
-disqus: false
-archive: false
-youtubeId: jbn08mxFl_M
-post_class: post-template
----
-<div class="entry-header">
-    <!-- Post Title -->
-    <h1 class="posttitle">{{ page.title }}</h1>
-    <!-- Author & Date  Box -->
-    {% assign author = site.authors[page.author] %}
-    {% if page.author %}
-    <div class="d-flex align-items-center mt-4">
-        <div>
-            {% if author.avatar %}
-            <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
-            {% else %}
-            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
-            {% endif %}
-        </div>            
-        <div>
-        Written by <a target="_blank" class="text-dark" href="{{ author.web }}">{{ author.display_name }}</a> on 
-        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-        {% if page.last_modified_at %}
-        (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-        {% endif %}
-        <div class="addthis_inline_share_toolbox_p91z"><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-600fe4460cfd813e"></script></div>
-        </div>            
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+{% include head-post.html %}
+
+<body>
+    <div class="th">
+        <div class="centernav bound">
+        <div class="shme"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            {% include header.html %}
+            {% include navbar.html %}
+
+        </div>
+        <div class="clear"></div>
     </div>
-    {% endif %}
-    
-    {% include breadcrumbs.html %}
-</div>
+    {% include svg-icons.html %}
 
-<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
-{% if site.adsense == "enabled" %}
-    {% include adsense-under-header.html %}
-{% endif %}
+    <div id="content" class="readercontent">
+        <div class="wrapper">
+          <div class="gcse-search"></div>   
+        </div><br />
+        <div class="wrapper">
 
-<!-- Featured Image -->
-{% include featured-image.html %}
+            <div class="chapterbody">
 
-<!-- Content -->
-{% include article.html %}
+                <div class="postarea">
+                    <article id="post" class="post-hentry" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
 
-<!-- Rating -->
-{% if page.rating %}
-<div class="rating mt-4 mb-4 d-flex align-items-center">
-    <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
-</div>
-{% endif %}
+                        <div class="headpost">
 
-<!-- Author Box if enabled from _config.yml -->
-{% include author-box.html %}
+                            <h1 class="entry-title" itemprop="name">{{ page.subtitle }} {{ page.title }} Bahasa Indonesia</h1>
 
- 
+                            <div class="allc">Semua chapter ada di <a href="{{ site.url }}{{ site.baseurl }}/komik/{{ page.category }}">{{ page.subtitle }}</a></div>
+                        </div>
+                        {% include share.html %}
+                        {% include breadcrume-post.html %}
+                        <div class="entry-content entry-content-single maincontent" itemprop="description">
+                            <div class="chdesc">
+                                <p>
+                                    Baca manga <b>{{ page.subtitle }} {{ page.title }}</b> bahasa Indonesia terbaru di <b>Postkomik</b>. Manga <b>{{ page.subtitle }}</b> bahasa Indonesia selalu update di <b>Postkomik</b>. Jangan lupa membaca update manga lainnya ya. Daftar koleksi manga <b>Postkomik</b> ada di menu Daftar Manga. </p>
+                            </div>
+                            <div class="chnav ctop nomirror">
+                                <span class="selector slc l">
+                                    <div class="nvx">
+                                        <select name="chapter" id="chapter" onchange="this.options[this.selectedIndex].value&amp;&amp;window.open(this.options[this.selectedIndex].value,'_self')">
+                                            <option value="" disabled="disabled">Pilih Chapter</option>
 
-<!-- Prev/Next -->
-            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-            {% if page.previous.url %}
-            <a class="prev d-block col-md-6" href="https://postkomik.github.io{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
-            {% endif %}
-            {% if page.next.url %}
-            <a class="next d-block col-md-6 text-lg-right" href="https://postkomik.github.io{{page.next.url}}">{{page.next.title}} &raquo; </a>
-            {% endif %}
-            <div class="clearfix"></div>
+                                            {% for post in site.posts %}
+                                            {% if post.category contains page.category %}
+
+                                            <option value="{{ post.url }}">{{ post.title }}</option>
+                                            {% endif %}
+                                            {% endfor %}
+
+                                        </select>
+                                    </div>
+                                </span>
+                                <span class="navrig">
+                                    <span class="selector readingmode l">
+
+                                    </span>
+                                </span>
+                                <span class="navlef">
+                                    {% include chapnex.html %}
+
+                                    <span class="dlx r"><a href="{{ site.url }}{{ site.baseurl }}/komik/{{ page.category }}" target="_blank"><i class="fas fa-cloud-download-alt"></i> Download</a></span> </span>
+                            </div>
+                            <div id="readerarea">
+
+                                {{content}}
+                                {% include komikblog.html id=page.blogId %}
+                            </div>
+
+                            <div class="chnav cbot">
+                                <span class="selector slc l">
+                                    <div class="nvx">
+                                        <select name="chapter" id="chapter" onchange="this.options[this.selectedIndex].value&amp;&amp;window.open(this.options[this.selectedIndex].value,'_self')">
+                                            <option value="" disabled="disabled">Pilih Chapter</option>
+
+                                            {% for post in site.posts %}
+                                            {% if post.category contains page.category %}
+
+                                            <option value="{{ post.url }}">{{ post.title }}</option>
+                                            {% endif %}
+                                            {% endfor %}
+
+                                        </select>
+                                    </div>
+                                </span>
+                                <span class="amob">
+                                    {% include chapnex.html %}
+
+                                    <span class="selector pagedsel r">
+                                        <select name="select-paged" class="ts-select-paged" id="select-paged">
+                                            <option value="0">1/7</option>
+                                        </select>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="chaptertags">
+                            <p>Tags: baca manga {{ page.subtitle }} {{ page.title }} bahasa Indonesia,
+                                komik {{ page.subtitle }} {{ page.title }} bahasa Indonesia, baca {{ page.subtitle }} {{ page.title }} online, {{ page.subtitle }} {{ page.title }} bab,
+                                {{ page.subtitle }} {{ page.title }} chapter, {{ page.subtitle }} {{ page.title }} high quality, {{ page.subtitle }} {{ page.title }} manga scan,
+                                <time class="entry-date" datetime="2021-11-24WIB18:25:14+0700" itemprop="datePublished" pubdate="">November 24, 2021</time>, 
+
+                                
+
+                                {% assign author = site.authors | where: "name", page.author | first %}
+                                {% if author %}
+                        <span itemprop="author"><a href="{{ author.url }}">{{ author.display_name }}</span></a>
+                                {% endif %}                                 
+                            </p>
+                        </div>
+
+                    </article>
+                    <div id="comments" class="bixbox comments-area">
+                        <div class="releases">
+                            <h2><span>Comment</span></h2>
+                        </div>
+                        <div class="cmt commentx">
+
+                            <div id="disqus_thread">
+                                {% include disqus.html %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-<!-- Comments if not disabled with comments: false -->
-{% include comments.html %}
-
-{% include youtube.html id=page.youtubeId %}
-
-<!-- Share -->
-{% include share.html %}
-
-<!-- Related Post -->
-{% include related-posts.html %}
-
-
-
-
-       
-<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
-https://search.google.com/structured-data/testing-tool/u/0/
-================================================== -->
-{% if page.rating %}
-    <script type="application/ld+json">
-    {
-    "@context": "http://schema.org/",
-    "@type": "Review",
-    "itemReviewed": {
-    "@type": "Rating",
-    "name": "{{ page.title }}"
-    },
-    "author": {
-    "@type": "Person",
-    "name": "{{ author.display_name }}"
-    },
-    "datePublished": "{{ page.date | date:"%Y-%m-%d" }}",
-    "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "{{ page.rating }}",
-    "bestRating": "5"
-    }
-    }
+        </div>
+    </div>
+    {% include footer.html %}
+    <script type='text/javascript'>
+        $(".separator a:has(img)").each(function() {
+            $(this).replaceWith($(this).children());
+        });
     </script>
-{% endif %}
+ 
+</body>
 
-
+</html>

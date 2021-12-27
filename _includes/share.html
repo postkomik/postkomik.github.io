@@ -1,38 +1,22 @@
-<div class="share">
-
- <!-- Go to www.addthis.com/dashboard to customize your tools -->
-
-
-    <p>
-        Share
-    </p>
-    <ul>
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </li>
-
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-        </li>
-        
-        
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://api.whatsapp.com/send?text={{ page.url | absolute_url }}" onclick="window.open(this.href, 'whatsapp-share', 'width=550,height=435');return false;">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-        </li>
-
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
-            
-            
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
-
-    </ul>
+<div class="socialts">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" class="fb">
+        <i class="fab fa-facebook-f"></i>
+        <span>Facebook</span>
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=&quot;{{ page.twitter_text }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}" target="_blank" class="twt">
+        <i class="fab fa-twitter"></i>
+        <span>Twitter</span>
+    </a>
+    <a href="whatsapp://send?text={{ page.title }} ~ {{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank" class="wa">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+    </a>
+    <a href="https://www.pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank" class="pntrs">
+        <i class="fab fa-pinterest-p"></i>
+        <span>Pinterest</span>
+    </a>
 </div>
+
+
+
+             

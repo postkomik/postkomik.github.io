@@ -1,15 +1,24 @@
 ---
-layout: default
-title: 404
+layout: main
 permalink: /404.html
 ---
-<style>
-    .newsletter, .footer {
-        display:none;
-    }
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 0px auto;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 60px;
+  }
 </style>
-<div class="text-center">
-<h1 class="mt-5"><span class="badge badge-dark font-weight-normal">404</span></h1>
-<h1 class="display-1 mt-4 mb-4"> Page not found!</h1>
-<p>Please use the search bar from the bottom left or visit our <a href="{{site.baseurl}}/">homepage</a>!</p>
+
+<div class="container">
+  <img src="/assets/img/404.gif" width="100%" alt="404 - Page not found">
+  <p><strong>Page not found :(</strong></p>
+  <p>I'm sorry. We couldn't find the page you are looking for.</p>
 </div>
+<script type = "text/javascript">
+ my_redirect = setTimeout(function() {
+ window.location.href = '{{ site.baseurl }}/';
+}, 10);
+</script>

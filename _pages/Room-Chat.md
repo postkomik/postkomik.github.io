@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Room Chat  
+title: Room Chat 
 permalink: /chatting
 comments: false
 image: 

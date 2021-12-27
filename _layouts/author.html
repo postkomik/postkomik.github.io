@@ -1,0 +1,81 @@
+---
+layout: page
+---
+
+
+<div class="arleth98">
+ 
+
+
+                  <div class="inf-wrap">
+                      <div class="img-thumb">
+                          {% if page.photo %}
+                          <img src="{{ page.photo }}" alt="{{ page.title }}">
+                          {% else %}
+                          <img src="{{ page.image }}" alt="{{ page.title }}">
+                          {% endif %}
+                          <p>{{ page.bio }}</p>
+                      </div>
+                      <div class="inf-inc">
+                          <div class="lol"><b>Status</b>: {{ page.position }}</div>
+                          <div class="lol"><b>Released</b>: <span class="epxdate">{{ page.date | date: "%b %d, %Y"  }}</span></div>
+                          <div class="lol"><b>Type</b>: Tamvan dan Ganteng </div>
+                          {% assign author = site.authors | where: "name", page.author | first %}
+                          {% if author %}
+                          <div class="lol"><b>Post By</b>: <a href="{{ author.url }}"><span  class= "post-autor">{{ author.display_name }}</span></a></div>
+                          {% endif %}
+                          <div class="lol"><b>Facebook</b>: {{ page.facebook_username }}
+                          </div>
+                          <div class="lol"><b>Github</b>: {{ page.github_username }}
+                          </div>
+                          <div class="lol"><b>Instragam</b>: {{ page.instagram_username}}
+                          </div>
+                          <div class="lol"><b>Twitter</b>: {{ page.twitter_username}}
+                          </div>                                                    
+                          <div class="lol"><b>Keyword</b>: baca Manga, Baca Komik, Baca Manhua bahasa indonesia</div>
+                          <div class="lol"><b>Name Blog</b>: https://basmanga.netlify.app/</div>
+                          <div class="lol"><b>Cms</b>: Jekyll gitlab pages</div>
+                      </div>
+                  </div>
+
+                  <div class="synopsis">
+                      <b>My Note</b><br />
+                      <div class="content">
+                          {{ content }}
+                    
+                      </div>
+                  </div>
+
+<div class="bixbox bxcl epcheck">
+    <div class="releases">
+        <h2>Posts By Author</h2>
+    </div>
+    <div class="eplister" id="chapterlist">
+
+        <ul>
+    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp:"post","post.is_generated != true" %}
+    {% for post in filtered_posts %}     
+            <li data-num="1.1">
+                <div class="chbox">
+                    <div class="eph-num">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <span class="chapternum">{{ post.category }}{{ post.title }}</span>
+                            <span class="epxdate">{{ post.date | date: "%b %d, %Y" }}</span>
+                        </a>
+                    </div>
+                    <div class="dt">
+                        <a href="{{ post.url }}" rel="nofollow" class="dload" target="_blank"><i class="fas fa-cloud-download-alt"></i></a>
+                    </div>
+                </div>
+            </li>
+    {% endfor %}           
+        </ul>
+
+    </div>
+</div>
+
+
+</div>
+
+
+

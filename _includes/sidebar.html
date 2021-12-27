@@ -1,0 +1,45 @@
+<div id="sidebar">
+    <div class="widget_text section">
+        <div class="textwidget custom-html-widget"><a href="{{ site.baseurl }}" target="_blank" rel="noopener"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="Fans Page"></a>
+        </div>
+    </div>
+    <div class="widget_text section">
+<div class="textwidget custom-html-widget">
+    <p>Sosial Link</p>
+    {% include sosial-link.html %}
+</div>
+            
+    </div>
+    <!--themesia cache start-->
+    <div class="section">
+        <div class="releases">
+            <h3>Koleksi Manga Komik Terbaru</h3>
+        </div>
+        <span style="visibility: unset;" class="ts-ajax-cache">
+            <div class="serieslist">
+                <ul>
+                    {% assign counter = '0' %}
+                    {% for page in site.pages %}
+                    {% for label in page.label %}
+                    {% if label == "Series" and counter < '5' %}
+                    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+                    <li>
+                        <div class="imgseries"><a class="series" href="{{ page.url }}" rel="139958"><img src="{{ page.image }}" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy"></a></div>
+                        <div class="leftseries">
+                            <h2>
+                                <a class="series" href="{{ page.url }}">{{ page.title }}</a>
+                            </h2>
+                        <span>
+                            <b>Genres</b>: 
+                            {{ page.genre }},                             
+                        </span>
+                        </div>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </span>
+    </div>
+</div>

@@ -1,32 +1,38 @@
-# Site
-name: "Mas Cemplon"
-title: "Mas Cemplon"
-description: "Berbagi Informasi Onlien Yang Mendidik"
+# Site Settings
+title: postkomik
+email: alwyahmad23@gmail.com
+description: Situs baca manga bahasa indonesia online
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: ""
-google_analytics: 'G-S8WBW5V67Q'
-disqus: 'postkomik-github-1'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://postkomik.github.io" # the base hostname & protocol for your site
+google_analytics: 
 
-include: ["_pages"]
+include: ["_pages"] 
 
-permalink: /:title/
-email: Ahmadalwy@gmail.com
+# User Settings
+username: postkomik
+user_description: Pengurus web
+disqus_shortname: postkomik-github-1
 
-# Authors
-authors:
-  
-    
-  mas cemplon:
-    name: Mas Cemplon
-    display_name: Mas Cemplon
-    avatar: 'assets/images/avatar.png'
-    email: Ahmadalwy@gmail.com
-    web: https://postkomik.github.io
-    twitter: https://twitter.com/
-    description: "Author of postkomik, a Manga Mahua styled template available for Blogger, HTML, . You are currently previewing Website."
-    
-  
+# Social Media
+# Remove the item if you don't need it
+github_username: penelitionlien
+facebook_username: post.komik.54
+twitter_username: Basmanga1
+instagram_username: postkomik.54
+linkedin_username: post-komik-44987a58
+medium_username: 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories-:title/
+paginate: 12
+paginate_path: "/page/:num/"
+svg_color: "#ff0a16"
+collections:
+  authors:
+    output: true
 
 # Plugins
 plugins:
@@ -34,47 +40,21 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-figure
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
-highlighter: none
-markdown: kramdown
-kramdown:
-   syntax_highlighter_opts:
-      disable : true
+ 
 
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Daftar Manga
+    url: /serie/
+  - title: Contact
+    url: /contact
+  - title: About us
+    url: /about
+  - title: Privacy Policy
+    url: /privacy-policy   
 
-
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "enabled"
-adsense-data-ad-client: "ca-pub-6982236787200985"
-adsense-data-ad-slot: "6808009756"
-adsense-data-ad-format: "auto"
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
-
-
-
-
-# Post Author Box ("enabled" or "disabled")
-authorbox: "disabled"
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-
-#exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
