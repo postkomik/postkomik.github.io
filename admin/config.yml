@@ -8,13 +8,13 @@ media_folder: "assets/images/uploads"
 
 collections:
 
-  - name: "coba"
-    label: "coba"
-    folder: "coba"
+  - name: "genre"
+    label: "Genre"
+    folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - name: checkboxes_select
+     - name: checkboxes_select
        label: Favorite frameworks
        widget: inline-select
        multiple: true
