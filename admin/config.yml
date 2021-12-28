@@ -8,6 +8,17 @@ media_folder: "assets/images/uploads"
 
 collections:
   
+  - name: "komik"
+    label: "komik"
+    folder: "komik"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+       - {label: "Layout", name: "layout", widget: "hidden", default: "komik"}
+       - {label: "Title", name: "title", widget: "string"}
+       - {label: "date", name: "date", widget: "datetime"}
+       - {label: "subtitle", name: "subtitle", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
+  
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
