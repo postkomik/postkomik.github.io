@@ -19,6 +19,7 @@ collections:
        - {label: "date", name: "date", widget: "datetime"}
        - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
        - {label: "category", name: "category", widget: "{{slug}}"}
+       - {label: "tag", name: "tag", widget: "inline-select", multiple: "true", options: ["Action","Adventure","Fantasy","Martial Arts","Supernatural","Comedy"]}
   
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
