@@ -20,7 +20,16 @@ collections:
        - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
        - {label: "category", name: "category", widget: "{{slug}}"}
        - {label: "tag", name: "tag", widget: "inline-select", options: ["Action","Adventure","Fantasy","Martial Arts","Supernatural","Comedy"]}
-  
+       
+  - name: radio_select
+    label: Most recent framework
+    widget: inline-select
+    options:
+      - { value: react, label: React }
+      - { value: angular, label: Angular 1.x }
+      - { value: vue, label: Vue.js }
+      - { value: $, label: jQuery }  
+      
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
