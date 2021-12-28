@@ -8,17 +8,12 @@ media_folder: "assets/images/uploads"
 
 collections:
 
-  - name: "genre"
-    label: "Genre"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-     - name: checkboxes_select
-       label: Favorite frameworks
-       widget: inline-select
-       multiple: true
-       options: ['React', 'Angular', 'Vue', 'Other']
+ - label: "Tags"
+   name: "tags"
+   widget: "select"
+   multiple: true
+   options: ["Design", "UX", "Dev"]
+   default: ["Design"]
     
   - name: "komik"
     label: "komik"
