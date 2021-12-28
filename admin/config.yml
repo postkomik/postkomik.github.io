@@ -26,7 +26,7 @@ collections:
        - {label: "date", name: "date", widget: "datetime"}
        - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
        - {label: "category", name: "category", widget: "{{slug}}"}
-       - {label: "tag", name: "tag", widget: "inline-select", options: ["Action","Adventure","Fantasy","Martial Arts","Supernatural","Comedy"]}
+  
        
  
       
