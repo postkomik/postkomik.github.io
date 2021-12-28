@@ -8,36 +8,8 @@ media_folder: "assets/images/uploads"
 
 collections:
 
-  - name: "posts"
-    label: "Posts"
-    folder: "posts"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {name: "date", widget: "datetime", hidden: true}
-      - {label: "Section", name: "section", widget: "select", options: ["news", "reviews", "interviews", "blog"]}
-    - {
-        label: "Subsection",
-        name: "subsection",
-        widget: "relation",
-        collection: "subsections",
-        searchFields: ["title"],
-        valueField: "title",
-        filterField: "section" # Only subsections whose section matches the selection above are shown.
-      }
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: "subsections"
-    label: "Subsections"
-    folder: "subsections"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Section", name: "section", widget: "select", options: ["news", "reviews", "interviews", "blog"]}
-      - {label: "Subsection name", name: "title", widget: "string"}
+
     
   - name: "komik"
     label: "komik"
