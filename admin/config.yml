@@ -8,12 +8,36 @@ media_folder: "assets/images/uploads"
 
 collections:
 
- - label: "genre"
-   name: "genre"
-   widget: "select"
-   multiple: true
-   options: ["Design", "UX", "Dev"]
-   default: ["Design"]
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {name: "date", widget: "datetime", hidden: true}
+      - {label: "Section", name: "section", widget: "select", options: ["news", "reviews", "interviews", "blog"]}
+    - {
+        label: "Subsection",
+        name: "subsection",
+        widget: "relation",
+        collection: "subsections",
+        searchFields: ["title"],
+        valueField: "title",
+        filterField: "section" # Only subsections whose section matches the selection above are shown.
+      }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "subsections"
+    label: "Subsections"
+    folder: "subsections"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Section", name: "section", widget: "select", options: ["news", "reviews", "interviews", "blog"]}
+      - {label: "Subsection name", name: "title", widget: "string"}
     
   - name: "komik"
     label: "komik"
@@ -26,10 +50,7 @@ collections:
        - {label: "date", name: "date", widget: "datetime"}
        - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
        - {label: "category", name: "category", widget: "{{slug}}"}
-  
-       
- 
-      
+
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
