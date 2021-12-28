@@ -7,7 +7,19 @@ media_folder: "assets/images/uploads"
 
 
 collections:
-  
+
+  - name: "coba"
+    label: "coba"
+    folder: "coba"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - name: checkboxes_select
+       label: Favorite frameworks
+       widget: inline-select
+       multiple: true
+       options: ['React', 'Angular', 'Vue', 'Other']
+    
   - name: "komik"
     label: "komik"
     folder: "komik"
