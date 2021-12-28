@@ -17,7 +17,8 @@ collections:
        - {label: "Layout", name: "layout", widget: "hidden", default: "komik"}
        - {label: "Title", name: "title", widget: "string"}
        - {label: "date", name: "date", widget: "datetime"}
-       - {label: "subtitle", name: "subtitle", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
+       - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
+       - {label: "category", name: "category", widget: "{{slug}}"}
   
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
