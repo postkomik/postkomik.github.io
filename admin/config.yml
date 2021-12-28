@@ -8,8 +8,8 @@ media_folder: "assets/images/uploads"
 
 collections:
 
- - label: "Tags"
-   name: "tags"
+ - label: "genre"
+   name: "genre"
    widget: "select"
    multiple: true
    options: ["Design", "UX", "Dev"]
