@@ -22,12 +22,7 @@ collections:
        - {label: "date", name: "date", widget: "datetime"}
        - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
        - {label: "category", name: "category", widget: "{{slug}}"}
-       - {label: "Most recent framework", name: "radio_select", widget: "inline-select", 
-    option: 
-       - { value: react, label: React }
-       - { value: angular, label: Angular 1.x }
-       - { value: vue, label: Vue.js }
-       - { value: $, label: jQuery }}    
+       - {label: "Most recent framework", name: "radio_select", widget: "inline-select", option: ['left', 'center', 'right']}    
         
     
  
