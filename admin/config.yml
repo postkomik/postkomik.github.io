@@ -22,15 +22,15 @@ collections:
        - {label: "date", name: "date", widget: "datetime"}
        - {label: "type", name: "type", widget: "select", options: ["Manga", "Manhua", "Manhwa"]}
        - {label: "category", name: "category", widget: "{{slug}}"}
-    fields:
-  - name: radio_select
-    label: Most recent framework
-    widget: inline-select
-    options:
-      - { value: react, label: React }
-      - { value: angular, label: Angular 1.x }
-      - { value: vue, label: Vue.js }
-      - { value: $, label: jQuery }  
+       - {label: "Most recent framework", name: "radio_select", widget: "inline-select", 
+    option: 
+       - { value: react, label: React }
+       - { value: angular, label: Angular 1.x }
+       - { value: vue, label: Vue.js }
+       - { value: $, label: jQuery }}    
+        
+    
+ 
 
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
